@@ -4,7 +4,16 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-4">
       <div className="container mx-auto px-4 text-center">
-        <p>&copy; 2023 AI-PGF. All rights reserved.</p>
+        <p>
+          © <a 
+            href="https://lyvena.xyz/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Lyvena.
+          </a> All rights reserved.
+        </p>
       </div>
     </footer>
   );
